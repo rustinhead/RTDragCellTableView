@@ -1,6 +1,6 @@
 # 可拖动cell重新排序的TableView
 仿iPhone自带天气应用，可对tableView中的cell拖动排序，可跨section拖动排序，拖动同时更新外部数据源，拖动至边缘tableView可自动向上或向下滚动（如果可以滚动的话）
-
+![drag1.gif](http://ww2.sinaimg.cn/mw690/5ededce5gw1ezoq84h05ig208m0gawwn.gif)
 直接将RTDragCellTableView.h和RTDragCellTableView.m拖进你的项目即可使用
 
 该控件扩充了原UITableView的数据源协议和代理协议中的方法，其中两个方法必须实现：
