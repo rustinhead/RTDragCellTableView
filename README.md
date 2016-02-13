@@ -6,15 +6,15 @@
 该控件扩充了原UITableView的数据源协议和代理协议中的方法，其中两个方法必须实现：
 
 -- DataSource --
-1、/**将外部数据源数组传入，以便在移动cell数据发生改变时进行修改重排*/
+/**将外部数据源数组传入，以便在移动cell数据发生改变时进行修改重排*/
 - (NSArray *)originalArrayDataForTableView:(RTDragCellTableView *)tableView;
 
 -- Delegate --
-2、/**将修改重排后的数组传入，以便外部更新数据源*/
+/**将修改重排后的数组传入，以便外部更新数据源*/
  - (void)tableView:(RTDragCellTableView *)tableView newArrayDataForDataSource:(NSArray *)newArray;
 
 同时还扩充了三个代理方法，如下
-/**选中的cell准备好可以移动的时候*/
+ /**选中的cell准备好可以移动的时候*/
  - (void)tableView:(RTDragCellTableView *)tableView cellReadyToMoveAtIndexPath:(NSIndexPath *)indexPath;
 
  /**选中的cell正在移动，变换位置，手势尚未松开*/
