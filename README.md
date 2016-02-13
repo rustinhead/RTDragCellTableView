@@ -7,7 +7,7 @@
 
 -- DataSource --
 1、/**将外部数据源数组传入，以便在移动cell数据发生改变时进行修改重排*/
--- (NSArray *)originalArrayDataForTableView:(RTDragCellTableView *)tableView;
+- (NSArray *)originalArrayDataForTableView:(RTDragCellTableView *)tableView;
 
 -- Delegate --
 2、/**将修改重排后的数组传入，以便外部更新数据源*/
