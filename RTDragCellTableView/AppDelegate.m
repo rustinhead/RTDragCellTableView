@@ -3,7 +3,7 @@
 //  RTDragCellTableView
 //
 //  Copyright © 2016年 Rusted. All rights reserved.
-//0
+//
 
 #import "AppDelegate.h"
 
