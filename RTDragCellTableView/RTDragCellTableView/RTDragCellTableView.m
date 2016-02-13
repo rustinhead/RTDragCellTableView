@@ -199,7 +199,7 @@ typedef enum{
 
 
 
-/** @brief Returns a customized snapshot of a given view. */
+/** 返回一个给定view的截图. */
 - (UIView *)customSnapshotFromView:(UIView *)inputView {
     
     // Make an image from the input view.
